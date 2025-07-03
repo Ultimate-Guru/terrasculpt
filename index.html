@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TerraSculpt - Creating World-Class Landscapes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-mountain"></i>
+                <span style="cursor: pointer;">TerraSculpt</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+                <div class="shape shape-6"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">TerraSculpt</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Creating world-class landscapes through innovative design practices.
+                    We enhance every project site through collaboration, analysis, and visionary design.
+                </p>
+                <button class="cta-button" id="heroButton">
+                    <span>Start Your Project</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About TerraSculpt</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Excellence Since 2016</h3>
+                    <p>TerraSculpt is a full-fledged design/build landscape and urban design studio founded in 2016 with
+                        a focus to create world-class landscapes centered on innovative practices in landscape and urban
+                        design. We strive to enhance the potential of every project site through client collaboration,
+                        thorough site analysis, conceptualization through to final site design.</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Years of Excellence</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="200">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-suffix">+</div>
+                        <div class="stat-label">Award-Winning Designs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Landscape Design</h3>
+                    <p>Creating stunning outdoor spaces that blend functionality with natural beauty, tailored to your
+                        vision and environment.</p>
+                    <div class="service-overlay">
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>Urban Planning</h3>
+                    <p>Comprehensive urban design solutions that enhance communities and create sustainable, livable
+                        environments.</p>
+                    <div class="service-overlay">
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Site Analysis</h3>
+                    <p>Thorough evaluation of site conditions, potential, and constraints to inform optimal design
+                        decisions.</p>
+                    <div class="service-overlay">
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Conceptualization</h3>
+                    <p>Innovative design concepts that transform ideas into viable, beautiful, and sustainable landscape
+                        solutions.</p>
+                    <div class="service-overlay">
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Design Build</h3>
+                    <p>Complete project management from initial concept through final construction and installation.</p>
+                    <div class="service-overlay">
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Client Collaboration</h3>
+                    <p>Working closely with clients to ensure every project reflects their vision while exceeding
+                        expectations.</p>
+                    <div class="service-overlay">
+                        <button class="service-btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-background">
+            <div class="contact-shapes">
+                <div class="contact-shape contact-shape-1"></div>
+                <div class="contact-shape contact-shape-2"></div>
+                <div class="contact-shape contact-shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title light">Get In Touch</h2>
+                <div class="title-underline light"></div>
+                <p class="section-subtitle light">Ready to transform your space? Let's discuss your project and bring
+                    your vision to life.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>info@terrasculpt.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Your City, State</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" id="project" name="project" required>
+                            <label for="project">Project Type</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Contact Us Today</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-mountain"></i>
+                    <span>TerraSculpt</span>
+                </div>
+                <p>&copy; 2024 TerraSculpt. All rights reserved. | Creating exceptional landscapes since 2016.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
